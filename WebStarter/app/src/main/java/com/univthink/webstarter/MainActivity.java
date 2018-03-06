@@ -12,6 +12,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         final WebView wv = (WebView) findViewById(R.id.webView);
         final String urlStart = "file:///android_asset/webAssets/index.html";
-        wv.loadUrl(urlStart);
+        final String urlWebStart = "https://www.google.com/";
+        wv.loadUrl(urlWebStart);
     }
 }
